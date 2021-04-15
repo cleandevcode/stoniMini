@@ -7,12 +7,23 @@
 }
 
 /* color */
+.lightgrey {
+  color: #6e6e6e;
+}
+.mediumgrey {
+  color: #4b4b4b;
+}
+
 .lightyellow {
   color: #c0bfb5;
 }
 
 .lightsilver {
   color: #b5b6c0;
+}
+
+.mediumsilver {
+  color: #777777;
 }
 
 .roundContent {
