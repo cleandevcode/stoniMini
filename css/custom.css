@@ -35,12 +35,52 @@ body {
   width: 100%;
   margin: 0px auto;
   overflow: auto;
-  background: black;
+  background: #101010;
+  font-family: "stratos";
+}
+
+p {
+  font-family: stratos-lights, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-18 {
+  font: normal normal medium 18px/23px Stratos;
+}
+
+.font-54 {
+  font: normal normal bold 54px/59px Stratos;
+  color: #b2b2b2;
+}
+
+.font-26 {
+  font: normal normal 400 26px/33px Stratos;
+}
+
+.font-38 {
+  font: normal normal bold 38px/41px Stratos;
+}
+
+.font-22 {
+  font: normal normal 400 22px/30px Stratos;
+}
+
+.font-20 {
+  font: normal normal bold 20px/30px Stratos;
+}
+
+.font-79 {
+  font: normal normal bold 79px/59px Stratos;
+}
+
+.font-51 {
+  font: normal normal bold 51px/55px Stratos;
 }
 
 @media (max-width: 768px) {
   .top-banner {
-    background-image: url("../img/topBanner.svg");
+    background-image: url("../img/sojo-first.svg");
   }
   .top-banner .banner {
     z-index: -1;
@@ -51,7 +91,7 @@ body {
     text-align: center;
     position: absolute;
     top: 20px;
-    left: 20px;
+    left: 30%;
   }
 
   .main-container {
@@ -59,7 +99,7 @@ body {
   }
 
   .truly {
-    background-image: url("../img/first.png");
+    background-image: url("../img/sojo-first.png");
     min-height: 870px;
     background-repeat: no-repeat;
   }
@@ -69,27 +109,27 @@ body {
   }
 
   .thc {
-    background-image: url("../img/second.png");
-    min-height: 870px;
+    background-image: url("../img/sojo-second.png");
+    min-height: 520px;
     background-repeat: no-repeat;
   }
 
   .middleBanner {
-    background-image: url("../img/third.png");
+    background-image: url("../img/sojo-third.png");
     min-height: 750px;
     background-repeat: no-repeat;
   }
 
   .lsbanner {
-    background-image: url("../img/four.png");
-    min-height: 300px;
+    background-image: url("../img/sojo-four.png");
+    min-height: 330px;
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .last {
-    background-image: url("../img/last.png");
-    min-height: 430px;
+    background-image: url("../img/sojo-last.png");
+    min-height: 835px;
     background-repeat: no-repeat;
     margin-left: 5px;
   }
